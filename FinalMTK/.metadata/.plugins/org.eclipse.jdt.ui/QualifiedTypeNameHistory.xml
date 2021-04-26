@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Adapter.Emulator"/>
+    <fullyQualifiedTypeName name="Adapter.CarSound"/>
+    <fullyQualifiedTypeName name="Adapter.Lamborghini"/>
+    <fullyQualifiedTypeName name="Adapter.Motorhome"/>
+    <fullyQualifiedTypeName name="Adapter.CarToy"/>
+    <fullyQualifiedTypeName name="Adapter.BicycleAdapter"/>
+    <fullyQualifiedTypeName name="Adapter.Bicycle"/>
+    <fullyQualifiedTypeName name="Decorator.CarSound"/>
+    <fullyQualifiedTypeName name="Decorator.CarSoundCounter"/>
+    <fullyQualifiedTypeName name="AbstractFactory.CarSound"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.core.common.cfg.AbstractControlFlowGraph"/>
+    <fullyQualifiedTypeName name="AbstractFactory.Van"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.LMUL"/>
+    <fullyQualifiedTypeName name="AbstractFactory.Lamborghini"/>
+    <fullyQualifiedTypeName name="AbstractFactory.Motorhome"/>
+    <fullyQualifiedTypeName name="AbstractFactory.CarToy"/>
+    <fullyQualifiedTypeName name="AbstractFactory.AbstractCarFactory"/>
+    <fullyQualifiedTypeName name="AbstractFactory.CarSoundCounter"/>
+    <fullyQualifiedTypeName name="AbstractFactory.ReckonCarFactory"/>
+    <fullyQualifiedTypeName name="CompositeAndInterator.CarZone"/>
+    <fullyQualifiedTypeName name="CompositeAndInterator.CarSound"/>
+    <fullyQualifiedTypeName name="Observer.CarSound"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.Observer"/>
+    <fullyQualifiedTypeName name="Observer.Observable"/>
+    <fullyQualifiedTypeName name="Observer.CarSoundObservable"/>
+    <fullyQualifiedTypeName name="Observer.ObserverMan"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,27 @@
+package Adapter;
+
+public class Emulator {
+
+	public static void main(String[] args) {
+		Emulator emulator =new Emulator();
+		emulator.emulator();
+	}
+	
+	void emulator() {
+		CarSound van= new Van();
+		CarSound lamborghini= new Lamborghini();
+		CarSound motorhome = new Motorhome();
+		CarSound carToy = new CarToy();
+		
+		System.out.println("\nEmulator Car:");
+		
+		emulator(van);
+		emulator(lamborghini);
+		emulator(motorhome);
+		emulator(carToy);
+	}
+	
+	void emulator(CarSound car) {
+		car.sound();
+	}
+}

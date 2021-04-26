@@ -1,0 +1,21 @@
+package Observer;
+
+public class Bicycle implements CarSoundObservable {
+	Observable observable;
+	public Bicycle() {
+		observable = new Observable();
+	}
+	@Override
+	public void registerObserver(Observer observer) {
+		observable.registerObserver(observer);
+		
+	}
+	@Override
+	public void notifyObservers() {
+		System.out.println("A recently Bicycle just release *but im not a car :))))* ");
+		
+	}
+	public void tingting() {
+		System.out.println("TingTing (Im a bicycle)");
+	}
+}

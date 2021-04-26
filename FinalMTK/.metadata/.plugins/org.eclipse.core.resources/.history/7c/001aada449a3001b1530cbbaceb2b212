@@ -1,0 +1,11 @@
+package Observer;
+
+public class ObserverMan implements Observer {
+
+	@Override
+	public void update(CarSoundObservable car) {
+		System.out.println("ObserverMan" + car + " just produced");
+		
+	}
+
+}

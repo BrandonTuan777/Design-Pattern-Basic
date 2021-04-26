@@ -1,0 +1,11 @@
+package Adapter;
+
+public class Emulator {
+
+	public static void main(String[] args) {
+		Emulator emulator =new Emulator();
+		emulator.emulator()
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package Observer;
+
+import java.util.ArrayList;
+
+public class Observable implements CarSoundObservable {
+	ArrayList observers = new ArrayList();
+	CarSoundObservable car;
+	public 
+	@Override
+	public void registerObserver(Observable observer) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void notifyObservers() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

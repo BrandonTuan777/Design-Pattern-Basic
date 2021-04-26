@@ -1,0 +1,9 @@
+package Observer;
+
+public class Bicycle implements CarSoundObservable {
+	Observable observable;
+	
+	public void tingting() {
+		System.out.println("TingTing (Im a bicycle)");
+	}
+}

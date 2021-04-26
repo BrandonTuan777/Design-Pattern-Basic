@@ -1,0 +1,12 @@
+package CompositeAndInterator;
+
+import java.util.ArrayList;
+
+public class CarZone implements CarSound {
+	ArrayList cars = new ArrayList();
+		
+	public void add(CarSound car) {
+		cars.add(car);
+	}
+
+}

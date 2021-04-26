@@ -1,0 +1,30 @@
+package AbstractFactory;
+
+public class CarFactory extends AbstractCarFactory {
+
+	@Override
+	public CarSound createVan() {
+		// TODO Auto-generated method stub
+		return new Van();
+	}
+
+	@Override
+	public CarSound createLamborghini() {
+		// TODO Auto-generated method stub
+		return new Lamborghini();
+	}
+
+	@Override
+	public CarSound createMotorhome() {
+		// TODO Auto-generated method stub
+		return new Motorhome();
+	}
+
+	@Override
+	public CarSound createCarToy() {
+		// TODO Auto-generated method stub
+		return new CarToy();
+	}
+	
+
+}

@@ -1,0 +1,8 @@
+package Observer;
+
+public class Bicycle implements CarSound {
+	
+	public void tingting() {
+		System.out.println("TingTing (Im a bicycle)");
+	}
+}
